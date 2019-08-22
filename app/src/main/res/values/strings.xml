@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">lianliankan</string>
+    <string name="shuoming">说明</string>
+    <string name="youxi">游戏</string>
+    <string name="shezhi">设置</string>
+    <string name="guizetimu">游戏说明</string>
+    <string name="guize">
+            \n\t\t\t\t\t\t\t\t此游戏具备15种不同的连连看动物，当点击相同的动物，并且动物之间存在通路，动物消失(注：最外层一圈存在通路)。当点击不同的动物，动物不消失。
+             点击动物即开始计时。在设置里面你可以自定义玩一盘的时间。
+            \n\t\t\t\t\t\t\t\t右上角的菜单可以选择重新开始游戏和游戏难度，游戏共有三个难度，入门(一共7种动物)，简单(一共11种动物)，困难(一共15种动物)。
+    </string>
+</resources>

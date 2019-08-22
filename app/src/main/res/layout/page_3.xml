@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="150dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="挑战时间:"
+            android:textSize="40sp"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="60dp"
+            android:textStyle="bold"
+            android:textColor="#00f"/>
+        <EditText
+            android:id="@+id/shezhishijian"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textColor="#f00"
+            android:textSize="40sp"
+            android:text="60"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+       <Switch
+           android:id="@+id/beijingkaiguan"
+           android:layout_marginLeft="60dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="背景音乐："
+           android:textSize="28sp"
+           android:textColor="#00f"
+           android:checked="true" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Switch
+            android:id="@+id/yinxiaokaiguan"
+            android:layout_marginLeft="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="游戏音效："
+            android:textSize="28sp"
+            android:textColor="#00f"
+            android:checked="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

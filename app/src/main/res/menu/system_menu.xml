@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/system_chongxinkaishi"
+        android:title="重新开始" />
+    <item
+        android:id="@+id/system_daluanchongpai"
+        android:title="打乱重排"/>
+
+    <item
+        android:id="@+id/system_xuanzenandu"
+        android:title="选择难度">
+        <menu>
+            <item
+                android:id="@+id/rumen"
+                android:orderInCategory="100"
+                android:title="入门"/>
+            <item
+                android:id="@+id/jiandan"
+                android:orderInCategory="100"
+                android:title="简单"/>
+            <item
+                android:id="@+id/kunnan"
+                android:orderInCategory="100"
+                android:title="困难"/>
+        </menu>
+    </item>
+
+</menu>
